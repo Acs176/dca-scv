@@ -37,7 +37,7 @@ boton9 = Button(ventana,text="9",width=5,height=2,command=lambda: click_boton(9)
 
 
 boton_borrar = Button(ventana,text="AC",width=5,height=2,command=lambda: borrar())
-boton_suma = Button(ventana,text="+",width=5,height=2,command=lambda: click_boton("+"))
+boton_suma = Button(ventana,text="+",width=5,height=2,command=lambda: click_boton("-"))
 boton_resta = Button(ventana,text="-",width=5,height=2,command=lambda: click_boton("-"))
 boton_multiplicar = Button(ventana,text="x",width=5,height=2,command=lambda: click_boton("*"))
 boton_dividir = Button(ventana,text="/",width=5,height=2,command=lambda: click_boton("/"))
